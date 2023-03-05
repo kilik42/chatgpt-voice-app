@@ -85,3 +85,7 @@ def main():
                 print("Say that again please...")
                 print("an error occurred {}".format(e))
                 return "None"
+
+
+if __name__ == '__main__':
+    main()
