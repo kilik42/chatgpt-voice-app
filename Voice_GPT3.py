@@ -2,14 +2,14 @@ import openai
 import pyttsx3 # Text to speech
 import speech_recognition as sr # for speech recognition
 import datetime # for date and time
-import wikipedia # for wikipedia
-import webbrowser # for opening browser
-import os # for operating system
-import smtplib # for sending email
-import random # for random number
-import pywhatkit # for playing youtube
-import pyjokes # for jokes
-import requests # for getting weather
+# import wikipedia # for wikipedia
+# import webbrowser # for opening browser
+# import os # for operating system
+# import smtplib # for sending email
+# import random # for random number
+# import pywhatkit # for playing youtube
+# import pyjokes # for jokes
+# import requests # for getting weather
 
 # API key
 openai.api_key = " "
@@ -46,7 +46,7 @@ def generate_response(query):
         frequency_penalty=0,
         presence_penalty=0.6,
         stop=None,
-        temperature=0.5,
+       
     )
     return response["choices"][0]["text"]
 
