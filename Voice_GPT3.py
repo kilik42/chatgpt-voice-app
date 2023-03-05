@@ -2,6 +2,7 @@ import openai
 import pyttsx3 # Text to speech
 import speech_recognition as sr # for speech recognition
 import datetime # for date and time
+import pyaudio
 # import wikipedia # for wikipedia
 # import webbrowser # for opening browser
 # import os # for operating system
@@ -84,7 +85,7 @@ def main():
                 print(e)
                 print("Say that again please...")
                 print("an error occurred {}".format(e))
-                return "None"
+                # return "None"
 
 
 if __name__ == '__main__':
